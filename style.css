@@ -1,0 +1,195 @@
+header{
+  text-align: center;
+}
+header img{
+  width: 150px;
+}
+
+
+
+
+
+.banner{
+  width: 95%;
+  margin:0 2.5%;
+}
+.banner img{
+  width:100%;
+  height:auto;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin:auto;
+}
+.child1{
+  width: 45%;
+}
+.child1 img{
+  width: 100%;
+}
+.child2{
+  width: 30%;
+}
+.child2 img{
+  width: 100%;
+}
+.banner2{
+  width: 95%;
+  margin:0 2.5%;
+}
+.banner2 img{
+  width:100%;
+  height:auto;
+}
+.child3{
+  padding-left: 6%;
+}
+.child4{
+  width: 22.5%;
+}
+.child3 img{
+  width: 100%;
+}
+.child9{
+  padding-left: 35%;
+}
+.child9 img{
+  width: 20%;
+}
+.child10{
+  padding-right: 35%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+  }
+  .child1{
+    width: 45%;
+  }
+  .child1 img{
+    width: 100%;
+  }
+  .child2{
+    width: 30%;
+  }
+  .child2 img{
+    width: 100%;
+  }
+  .banner2{
+    width: 95%;
+    margin:0 2.5%;
+  }
+  .banner2 img{
+    width:100%;
+    height:auto;
+  }
+  .child3{
+    padding-left: 6%;
+  }
+  .child4{
+    width: 90%;
+  }
+  .child3 img{
+    width: 100%;
+  }
+
+  .child10{
+    padding-right: 35%;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+  }
+  .child1{
+    width: 45%;
+  }
+  .child1 img{
+    width: 100%;
+  }
+  .child2{
+    width: 30%;
+  }
+  .child2 img{
+    width: 100%;
+  }
+  .banner2{
+    width: 95%;
+    margin:0 2.5%;
+  }
+  .banner2 img{
+    width:100%;
+    height:auto;
+  }
+  .child3{
+    padding-left: 6%;
+  }
+  .child4{
+    width: 90%;
+  }
+  .child3 img{
+    width: 100%;
+  }
+
+  .child10{
+    padding-right: 35%;
+  }
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+  }
+  .child1{
+    width: 45%;
+  }
+  .child1 img{
+    width: 100%;
+  }
+  .child2{
+    width: 30%;
+  }
+  .child2 img{
+    width: 100%;
+  }
+  .banner2{
+    width: 95%;
+    margin:0 2.5%;
+  }
+  .banner2 img{
+    width:100%;
+    height:auto;
+  }
+  .child3{
+    padding-left: 6%;
+  }
+  .child4{
+    width: 45%;
+  }
+  .child3 img{
+    width: 100%;
+  }
+
+
+  .child10{
+    padding-right: 35%;
+  }
+
+}
